@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import cardImage from '../../pianocat.png';
 import './Card.css'
 
+const EditConfig = {
+    emptyLabel: 'Card',
+
+    isEmpty: function(props){
+        return !props || !props.text || props.text.trim().length < 1;
+    }
+};
+
 export default class Card extends Component {
     render() {
         return(

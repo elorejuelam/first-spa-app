@@ -15,6 +15,7 @@
                         jcr:primaryType="nt:unstrcutured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Text"
+                        required="true"
                         name="./text"/>
                     <longText 
                         jcr:primaryType="nt:unstrcutured"
@@ -28,4 +29,3 @@
         </items>
     </content>
 </jcr:root>
-
