@@ -11,6 +11,18 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
+                    <text 
+                        jcr:primaryType="nt:unstrcutured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Text"
+                        name="./text"/>
+                    <longText 
+                        jcr:primaryType="nt:unstrcutured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                        fieldLabel="Long Text"
+                        name="./longText"
+                        rows="10"
+                        resize="vertical"/>
                 </items>
             </column>
         </items>
